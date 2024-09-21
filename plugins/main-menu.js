@@ -14,7 +14,7 @@ import fetch from "node-fetch";
 
 const defaultMenu = {
   before: `
-🌟✨ *Welcome to ${botname}* ✨🌟
+🌟✨ *Welcome to ${U S M A N}* ✨🌟
 ╭━━━⊱ 👤 *USER* 👤 ⊱━━━╮
 🖋️ *Name:* _%name_
 ╰━━━━━━━━━━━━━━━━╯
@@ -201,7 +201,7 @@ function clockString(ms) {
 }
 
 function ucapan() {
-  const time = moment.tz("Asia/Kolkata").format("HH");
+  const time = moment.tz("Asia/Islamabad").format("HH");
   let res = "Good morning ☀️";
   if (time >= 4) {
     res = "Good Morning 🤗🌄";
